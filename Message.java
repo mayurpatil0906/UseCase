@@ -1,25 +1,34 @@
 /*
 @author developer
-@version 3.0
+@version 4.0
 */
 
 class Message
 {
 	public static void main(String[]args)
 	{
-		String[] lines=new String[7];
-		lines[0]=String.join(" # ","   ***     ","   ***    "," ******  ","  ******   ");
-		lines[1]=String.join(" # ","**     **  ","**     ** "," **   ** "," **        ");  
-		lines[2]=String.join(" # ","**     **  ","**     ** "," **   ** ","**         ");  
-		lines[3]=String.join(" # ","**     **  ","**     ** "," **  **  "," ******    ");  
-		lines[4]=String.join(" # ","**     **  ","**     ** "," **      ","      **   ");  
-		lines[5]=String.join(" # ","**     **  ","**     ** "," **      ","       **  ");  
-		lines[6]=String.join(" # ","   ***     ","   ***    "," **      ","  ******   ");  
+		//Creating a array to store the oops patterns
+		String names[]=getpattern();
+			
 		
-		for (String line :lines)
-		{
-				System.out.println(line);
+		for (String name:names){
+			System.out.println(name);
+		}
+	}
+		
+		public static String[] getpattern(){
+			return new String[] {
+				"  ***  ",
+				"**   **",
+				"**   **",
+				"**   **",
+				"**   **",
+				"  ***  "
+			};
 		}
 		
-	}
+		
+		
+		
+	
 }
