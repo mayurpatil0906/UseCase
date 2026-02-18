@@ -1,12 +1,13 @@
 /*
 @author developer
-@version 3.0
+@version 4.0
 */
 
 class Message
 {
 	public static void main(String[]args)
 	{
+		//Creating a array to store the oops patterns
 		String names[]={
 			String.join(" # ","   ***     ","   ***    "," ******  ","  ******   "),
 			String.join(" # ","**     **  ","**     ** "," **   ** "," **        "),  
