@@ -1,10 +1,5 @@
-/*
-@author developer
-@version 4.0
-*/
-
 import java.util.*;
-public class Message {
+public class HashMaps {
     public static HashMap<Character,String[]> createCharacterMap(){
         HashMap<Character,String[]> map = new HashMap<>();
         map.put('O',new String[] {
